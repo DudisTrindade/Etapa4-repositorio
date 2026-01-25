@@ -19,7 +19,7 @@ public class LinhaDeChegada : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Carro"))
         {
             mensagem.SetActive(true);
         }
