@@ -15,7 +15,7 @@ public class Restart : MonoBehaviour
    
     void Update()
     {
-        if (contador > 10)
+        if (contador > 2)
         {
             contador = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
